@@ -1,0 +1,19 @@
+git status
+git init
+git status
+git add fichero1.txt
+git status
+git config --global user.email "jorgestiles@live.com"
+git config --global user.name "Utalawea"
+git commit -m "Primer commit, puse 2 lineas de texto."
+git status
+git remote add origin https://github.com/Utalawea/Practica-2.git
+git push -u origin master
+git status
+git clone https://github.com/Utalawea/Practica-2.git
+git status
+git add .
+git commit -m "Añadidas 2 líneas."
+git status
+git push origin master
+git pull
